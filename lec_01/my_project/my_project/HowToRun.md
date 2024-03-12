@@ -1,5 +1,5 @@
 1. make sure that you have poetry installed.
-2. clone this repo
+2. clone this repo: https://github.com/Umer-Islam/Panaverse_q3
 3. go to the lec_01/my_project/my_project
 4. $ poetry install  "to add the dependencie"
 5. $ poetry shell    "to activate venv"
