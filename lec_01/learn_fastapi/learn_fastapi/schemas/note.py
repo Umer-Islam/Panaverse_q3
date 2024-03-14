@@ -1,0 +1,12 @@
+# here we want to convert mongodb dictionary to python dictionary
+def noteEntity(item) -> dict:
+    return {
+        "id": str(item["_id"]),
+        "title": item["title"],
+        "desc": item["desc"],
+        "important": item["important"],
+    }
+
+def notesEntity(items)-> list:
+    return [notesEntity(item) for item in items]
+    
